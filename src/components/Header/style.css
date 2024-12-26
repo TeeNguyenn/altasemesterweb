@@ -1,0 +1,44 @@
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 0 20px;
+    height: 80px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    padding: 4px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

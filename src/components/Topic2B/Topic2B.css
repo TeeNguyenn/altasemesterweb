@@ -1,0 +1,13 @@
+.container2b {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.item {
+    width: 30%;
+    aspect-ratio: 1 /1;
+    border-radius: 50%;
+}
